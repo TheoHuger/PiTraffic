@@ -55,7 +55,7 @@
 /* Typographie */
 .hero h2 {
   font-size: 64px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Ombre pour lisibilité max */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
 }
 
 .hero p {
@@ -69,3 +69,21 @@
   .hero h2 { font-size: 36px; }
   .hero p { font-size: 18px; }
 }
+
+
+
+#aproposlogo{
+    width: 180px; 
+    height: 180px; 
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    border-bottom: 3px solid #000; 
+    display: inline-block;
+}
+
