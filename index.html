@@ -134,13 +134,37 @@
             </div>
         </section>
 
-        <section>
-
+        <section id="contact" class="container py-5">
+            <h2 class="text-center mb-5 fw-bold">Contactez-nous</h2>
             
-
-
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="shadow-lg p-4 bg-white rounded">
+                        <p class="text-muted mb-4"><span class="text-danger">*</span> Champs obligatoires</p>
+                        
+                        <div class="mb-3">
+                            <label for="nomInput" class="form-label fw-bold">Nom <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="nomInput" placeholder="Votre nom complet" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label fw-bold">Adresse Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="nom@exemple.com" required>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="messageInput" class="form-label fw-bold">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="messageInput" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                        </div>
+                    </form>
+                    </div>
+            </div>
         </section>
-
+        
     </main>
 
     
